@@ -11,7 +11,7 @@ function tasksReducer(tasks, action) {
     } ...
 
 const [tasks, dispatch] = useReducer(
-    tasksReducer,
-    initialTasks
+    tasksReducer,  // 处理行为
+    initialTasks   // 数据存放
   );
 // 把状态更新逻辑从事件处理函数中移动到组件外部。
